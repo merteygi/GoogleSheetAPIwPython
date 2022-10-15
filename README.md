@@ -41,7 +41,7 @@ To do that, you need to follow just few steps.
 * Enable the Google Sheet API
 * Create a service account in 
 * Inside the service account, create a key file and store the downloaded json file (you can freely change its name ) 
-* Give a access permission to your Google Cloud Service Account Email Address
+* Give a access permission of your Google Sheet to your Google Cloud Service Account Email Address
 
 You can also check this link if necessary -> [https://developers.google.com/sheets/api/quickstart/python](https://developers.google.com/sheets/api/quickstart/python)
 
