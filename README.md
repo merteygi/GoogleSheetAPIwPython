@@ -18,7 +18,7 @@ def get_data_google_sheet(SCOPES,SERVICE_ACCOUNT_FILE,MY_SPREADSHEET_ID,MY_RANGE
     #values = result.get('values', [])
 
     df = pd.DataFrame.from_dict(data =result['values'][1:])
-    df.columns = res
+    df.columns = result['values'][0]
 
 df = get_data_google_sheet(SCOPES,SERVICE_ACCOUNT_FILE,MY_SPREADSHEET_ID,MY_RANGE_NAME)
 ```
